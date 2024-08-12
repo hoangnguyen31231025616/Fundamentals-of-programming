@@ -12,3 +12,4 @@ c:\Users\Admin\Documents\Code\C#\bài tập buổi 2\obj\Debug\net8.0\refint\bà
 c:\Users\Admin\Documents\Code\C#\bài tập buổi 2\obj\Debug\net8.0\bài tập buổi 2.pdb
 c:\Users\Admin\Documents\Code\C#\bài tập buổi 2\obj\Debug\net8.0\bài tập buổi 2.genruntimeconfig.cache
 c:\Users\Admin\Documents\Code\C#\bài tập buổi 2\obj\Debug\net8.0\ref\bài tập buổi 2.dll
+C:\Users\Admin\Documents\Code\C#\bài tập buổi 2\obj\Debug\net8.0\bài tập buổi 2.sourcelink.json

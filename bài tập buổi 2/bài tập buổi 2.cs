@@ -10,7 +10,7 @@ namespace FundamentalC_
     {
         public static void Main(string[] args)
         {
-            baitap5();
+            baitap2();
         }
         static void baitap1()
         {
@@ -29,10 +29,8 @@ namespace FundamentalC_
             string var1 = Console.ReadLine();
             Console.Write("input b: ");
             string var2 = Console.ReadLine();
-            string temp = var1;
-            var1 = var2;
-            var2 = temp;
-            Console.WriteLine($"var 1 will be {var1}, var 2 will be {var2}");
+            (var1, var2) = (var2, var1);
+            Console.WriteLine($"a will be {var1}, b will be {var2}");
         }
         static void baitap3()
         {
