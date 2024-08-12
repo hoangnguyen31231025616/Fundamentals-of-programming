@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("bài tập buổi 3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23bd1b9cb088f992d60fb5565abdd54f1a18241e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73d1948fa92660bdfdf42662b16a7879312ee846")]
 [assembly: System.Reflection.AssemblyProductAttribute("bài tập buổi 3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("bài tập buổi 3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

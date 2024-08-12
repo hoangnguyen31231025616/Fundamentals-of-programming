@@ -10,7 +10,7 @@ namespace FundamentalC_
     {
         public static void Main(string[] args)
         {
-            baitap2();
+            baitap1();
         }
         static void baitap1()
         {
