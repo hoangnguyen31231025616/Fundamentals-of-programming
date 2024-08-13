@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FundamentalC_
+namespace FundamentalCSharp
 {
     internal class bài_tập_1
     {
         public static void Main(string[] args)
         {
-            baitap1();
+            baitap9();
         }
         static void baitap1()
         {
@@ -65,6 +65,32 @@ namespace FundamentalC_
                 Double Celsi = Convert.ToDouble(Console.ReadLine());
                 Console.WriteLine($"output: {(Celsi * 1.8) + 32}");
             }
+        }
+        static void baitap6()
+        {
+            Console.WriteLine("sizeof(char)     : {0}", sizeof(char)); 
+            Console.WriteLine("sizeof(byte)     : {0}", sizeof(byte)); 
+            Console.WriteLine("sizeof(sbyte)    : {0}", sizeof(sbyte)); 
+            Console.WriteLine("sizeof(float)    : {0}", sizeof(float)); 
+            Console.WriteLine("sizeof(ushort)   : {0}", sizeof(ushort)); 
+            Console.WriteLine("sizeof(double)   : {0}", sizeof(double)); 
+            Console.WriteLine("sizeof(int)      : {0}", sizeof(int)); 
+            Console.WriteLine("sizeof(bool)     : {0}", sizeof(bool)); 
+            Console.WriteLine("sizeof(short)    : {0}", sizeof(short)); 
+        }
+        static void baitap8()
+        {
+            Console.WriteLine("input R of circle: ");
+            double Rad = Convert.ToDouble(Console.ReadLine());
+            double Area = Math.PI*Rad*Rad;
+            Console.WriteLine($"Area of circle: {Math.Truncate(Area)}");
+        }
+        static void baitap9()
+        {
+            Console.WriteLine("input side(a) of square: ");
+            double a = Convert.ToDouble(Console.ReadLine());
+            double Area = a*a;
+            Console.WriteLine($"Area of circle: {Area}");
         }
     }
 }
