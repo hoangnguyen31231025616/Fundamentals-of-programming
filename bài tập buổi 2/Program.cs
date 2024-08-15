@@ -10,7 +10,15 @@ namespace FundamentalCSharp
     {
         public static void Main(string[] args)
         {
+            baitap1();
+            baitap2();
+            baitap3();
+            baitap4();
+            baitap5();
+            baitap6();
+            baitap8();
             baitap9();
+            baitap10();
         }
         static void baitap1()
         {
@@ -96,7 +104,7 @@ namespace FundamentalCSharp
         {
             Console.WriteLine("input number of days: ");
             int inday = Convert.ToInt32(Console.ReadLine());
-          Console.WriteLine($"convert to: {inday/365} year(s), {(inday%365)/7} week(s) ,{(inday%365)%7} day(s) ");
+            Console.WriteLine($"convert to: {inday/365} year(s), {(inday%365)/7} week(s) ,{(inday%365)%7} day(s) ");
            
         } 
     }
