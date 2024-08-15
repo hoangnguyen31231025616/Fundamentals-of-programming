@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Admin\\Documents\\Code\\C#\\bài tập buổi 2\\bài tập buổi 2.csproj": {}
+    "C:\\Users\\Admin\\Documents\\Code\\C#\\bài tập buổi 2\\bài tập buổi 2.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Admin\\Documents\\Code\\C#\\bài tập buổi 2\\bài tập buổi 2.csproj": {
+    "C:\\Users\\Admin\\Documents\\Code\\C#\\bài tập buổi 2\\bài tập buổi 2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Admin\\Documents\\Code\\C#\\bài tập buổi 2\\bài tập buổi 2.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\Code\\C#\\bài tập buổi 2\\bài tập buổi 2.csproj",
         "projectName": "bài tập buổi 2",
-        "projectPath": "c:\\Users\\Admin\\Documents\\Code\\C#\\bài tập buổi 2\\bài tập buổi 2.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\Code\\C#\\bài tập buổi 2\\bài tập buổi 2.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Admin\\Documents\\Code\\C#\\bài tập buổi 2\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\Code\\C#\\bài tập buổi 2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
