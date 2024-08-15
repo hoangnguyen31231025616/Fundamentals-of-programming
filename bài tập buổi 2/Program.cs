@@ -92,5 +92,12 @@ namespace FundamentalCSharp
             double Area = a*a;
             Console.WriteLine($"Area of circle: {Area}");
         }
+        static void baitap10()
+        {
+            Console.WriteLine("input number of days: ");
+            int inday = Convert.ToInt32(Console.ReadLine());
+          Console.WriteLine($"convert to: {inday/365} year(s), {(inday%365)/7} week(s) ,{(inday%365)%7} day(s) ");
+           
+        } 
     }
 }
