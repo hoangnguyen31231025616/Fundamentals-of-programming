@@ -10,15 +10,15 @@ namespace FundamentalCSharp
     {
         public static void Main(string[] args)
         {
-            baitap1();
-            baitap2();
-            baitap3();
-            baitap4();
+            //baitap1();
+            //baitap2();
+            //baitap3();
+            //baitap4();
             baitap5();
-            baitap6();
-            baitap8();
-            baitap9();
-            baitap10();
+            //baitap6();
+            //baitap8();
+            //baitap9();
+            //baitap10();
         }
         static void baitap1()
         {
@@ -48,13 +48,13 @@ namespace FundamentalCSharp
             Console.Write("input b: ");
             string b = Console.ReadLine();
             float so_b = Convert.ToInt32(b);
-            Console.WriteLine($"a+b: {so_a * so_b}");
+            Console.WriteLine($"a*b: {so_a * so_b}");
         }
         static void baitap4()
         {
             Console.Write("input length (in Feet): ");
             double feet = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine($"convert to meter: {feet * 0.3048}");
+            Console.WriteLine($"convert to meter: {Math.Round(feet * 0.3048, 3)}");
         }
         static void baitap5()
         {
@@ -65,13 +65,13 @@ namespace FundamentalCSharp
             {
                 Console.WriteLine("input F");
                 Double Faren = Convert.ToDouble(Console.ReadLine());
-                Console.WriteLine($"output: {(Faren - 32) / 1.8}");
+                Console.WriteLine($"output C: {(Faren - 32) / 1.8}");
             }
             if (choice == 2)
             {
                 Console.WriteLine("input C");
                 Double Celsi = Convert.ToDouble(Console.ReadLine());
-                Console.WriteLine($"output: {(Celsi * 1.8) + 32}");
+                Console.WriteLine($"output F: {(Celsi * 1.8) + 32}");
             }
         }
         static void baitap6()
