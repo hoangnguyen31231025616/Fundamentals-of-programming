@@ -10,8 +10,8 @@ namespace FundamentalCSharp
     {
         public static void Main(string[] args)
         {
-            baitap1();
-
+            //baitap1();
+            baitap2();
         }           
         static void baitap1 ()
         {
@@ -21,6 +21,15 @@ namespace FundamentalCSharp
             float Faren = (Celsi*18)/10+32;
             Console.WriteLine($"output Kelvin: {kelvin}");
             Console.WriteLine($"output Farenheit: {Faren}"); 
+        }
+        static void baitap2()
+        {
+            Console.WriteLine("Input radius: ");
+            float R = Convert.ToSingle(Console.ReadLine());
+            double S = Math.Round((4*Math.PI*Math.Pow(R, 2)), 2);
+            double V = Math.Round((4/3)*Math.PI*Math.Pow(R, 3), 2);
+            Console.WriteLine($"output surface: {S}");
+            Console.WriteLine($"output Volume: {V}");
         }
     }
 }
