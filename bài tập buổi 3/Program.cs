@@ -16,9 +16,9 @@ namespace FundamentalCSharp
         static void baitap1 ()
         {
             Console.WriteLine("input C: ");
-            double Celsi = Convert.ToDouble(Console.ReadLine());
-            double kelvin = Celsi + 273;
-            double Faren = (Celsi*18)/10+32;
+            float Celsi = Convert.ToSingle(Console.ReadLine());
+            float kelvin = Celsi + 273;
+            float Faren = (Celsi*18)/10+32;
             Console.WriteLine($"output Kelvin: {kelvin}");
             Console.WriteLine($"output Farenheit: {Faren}"); 
         }
