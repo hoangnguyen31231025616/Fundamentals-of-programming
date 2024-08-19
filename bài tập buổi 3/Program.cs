@@ -11,7 +11,8 @@ namespace FundamentalCSharp
         public static void Main(string[] args)
         {
             //baitap1();
-            baitap2();
+            //baitap2();
+            baitap3();
         }           
         static void baitap1 ()
         {
@@ -30,6 +31,21 @@ namespace FundamentalCSharp
             double V = Math.Round((4/3)*Math.PI*Math.Pow(R, 3), 2);
             Console.WriteLine($"output surface: {S}");
             Console.WriteLine($"output Volume: {V}");
+        }
+        static void baitap3()
+        {
+            Console.WriteLine("input a: ");
+            float a = Convert.ToSingle(Console.ReadLine());
+            Console.WriteLine("input b: ");
+            float b = Convert.ToSingle(Console.ReadLine());
+            Console.Write(
+                $$"""
+                {{a}} + {{b}} = {{a+b}}
+                {{a}} - {{b}} = {{a-b}}
+                {{a}} * {{b}} = {{a*b}}
+                {{a}} / {{b}} = {{a/b}}
+                {{a}} mod {{b}} = {{a%b}}
+                """ );
         }
     }
 }
