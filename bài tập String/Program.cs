@@ -12,7 +12,9 @@ namespace FundamentalCSharp
         {
             //baitap1();
             //baitap2();
-            baitap3();
+            //baitap3();
+            //baitap4();
+            baitap5();
         }
         static void baitap1()
         {
@@ -22,10 +24,14 @@ namespace FundamentalCSharp
         }
         static void baitap3()
         {
-            Console.WriteLine("input string: ");
+            int startnum = 0;
+            Console.Write("input string: ");
             string s = Console.ReadLine();
-            var characters = s.Split('');
-            Console.WriteLine(characters);
+            while (startnum <= s.Length - 1)
+            {
+                Console.Write(s[startnum] + " ");
+                startnum ++;
+            }
         }
         static void baitap2()
         {
@@ -37,6 +43,34 @@ namespace FundamentalCSharp
                     numberOfLetters++;
                 }
             Console.WriteLine("Length of string: "+ numberOfLetters);
+        }
+        static void baitap4()
+        {
+            int startnum = 0;
+            Console.Write("input string: ");
+            string s = Console.ReadLine();
+            char[] characters = s.ToCharArray();
+            Array.Reverse(characters);
+            foreach (char chars in characters)
+            {
+                Console.Write(chars +" ");
+            }
+        }
+        static void baitap5()
+        {
+            int startnum = 0;
+            int wordnum = 1;
+            Console.Write("input string: ");
+            string s = Console.ReadLine();
+            while (startnum <= s.Length - 1)
+            {
+                if (s[startnum] == ' ' || s[startnum] == '\n' || s[startnum] == '\t')
+                {
+                    wordnum++;
+                }
+                startnum ++;
+            }
+            Console.Write("total number of words: {0}", wordnum);
         }
     }
 }           
