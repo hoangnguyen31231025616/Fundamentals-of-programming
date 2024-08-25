@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FundamentalCSharp
 {
-    internal class bài_tập_1
+    internal class bài_tập_2
     {
         public static void Main(string[] args)
         {

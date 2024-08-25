@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace FundamentalCSharp
 {
-    internal class bài_tập_1
+    internal class bài_tập_3
     {
         public static void Main(string[] args)
         {
             //baitap1();
             //baitap2();
-            baitap3();
+            //baitap3();
         }           
         static void baitap1 ()
         {

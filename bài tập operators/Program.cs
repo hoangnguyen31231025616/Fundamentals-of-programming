@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FundamentalCSharp
 {
-    internal class bài_tập_string
+    internal class Operators
     {
         public static void Main(string[] args)
         {
