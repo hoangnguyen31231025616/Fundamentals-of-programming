@@ -1,0 +1,15 @@
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập operators\bin\Debug\net8.0\bài tập operators.exe
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập operators\bin\Debug\net8.0\bài tập operators.deps.json
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập operators\bin\Debug\net8.0\bài tập operators.runtimeconfig.json
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập operators\bin\Debug\net8.0\bài tập operators.dll
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập operators\bin\Debug\net8.0\bài tập operators.pdb
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập operators\obj\Debug\net8.0\bài tập operators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập operators\obj\Debug\net8.0\bài tập operators.AssemblyInfoInputs.cache
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập operators\obj\Debug\net8.0\bài tập operators.AssemblyInfo.cs
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập operators\obj\Debug\net8.0\bài tập operators.csproj.CoreCompileInputs.cache
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập operators\obj\Debug\net8.0\bài tập operators.sourcelink.json
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập operators\obj\Debug\net8.0\bài tập operators.dll
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập operators\obj\Debug\net8.0\refint\bài tập operators.dll
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập operators\obj\Debug\net8.0\bài tập operators.pdb
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập operators\obj\Debug\net8.0\bài tập operators.genruntimeconfig.cache
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập operators\obj\Debug\net8.0\ref\bài tập operators.dll

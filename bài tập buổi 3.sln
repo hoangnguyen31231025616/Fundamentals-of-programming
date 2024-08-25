@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bài tập buổi 2", "bài
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bài tập String", "bài tập String\bài tập String.csproj", "{6815F8F5-A1C7-41EF-AF2F-D565CDB542C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bài tập operators", "bài tập operators\bài tập operators.csproj", "{F490D868-ED79-4CB7-9AE5-1AAAD8F2E7E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{6815F8F5-A1C7-41EF-AF2F-D565CDB542C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6815F8F5-A1C7-41EF-AF2F-D565CDB542C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6815F8F5-A1C7-41EF-AF2F-D565CDB542C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F490D868-ED79-4CB7-9AE5-1AAAD8F2E7E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F490D868-ED79-4CB7-9AE5-1AAAD8F2E7E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F490D868-ED79-4CB7-9AE5-1AAAD8F2E7E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F490D868-ED79-4CB7-9AE5-1AAAD8F2E7E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

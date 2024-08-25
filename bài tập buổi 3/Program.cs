@@ -38,14 +38,16 @@ namespace FundamentalCSharp
             float a = Convert.ToSingle(Console.ReadLine());
             Console.WriteLine("input b: ");
             float b = Convert.ToSingle(Console.ReadLine());
-            Console.Write(
-                $$"""
-                {{a}} + {{b}} = {{a+b}}
-                {{a}} - {{b}} = {{a-b}}
-                {{a}} * {{b}} = {{a*b}}
-                {{a}} / {{b}} = {{a/b}}
-                {{a}} mod {{b}} = {{a%b}}
-                """ );
+            float sum_of_ab = a+b;
+            float minus_of_ab = a-b;
+            float multi_of_ab = a*b;
+            float division_of_ab = a/b;
+            float mod_of_ab = a%b;
+            Console.WriteLine($"{a} + {b} = {sum_of_ab}");
+            Console.WriteLine($"{a} - {b} = {minus_of_ab}");
+            Console.WriteLine($"{a} * {b} = {multi_of_ab}");
+            Console.WriteLine($"{a} / {b} = {division_of_ab}");
+            Console.WriteLine($"{a} mod {b} = {mod_of_ab}");
         }
     }
 }
