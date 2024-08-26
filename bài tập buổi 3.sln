@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bài tập String", "bài t
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bài tập operators", "bài tập operators\bài tập operators.csproj", "{F490D868-ED79-4CB7-9AE5-1AAAD8F2E7E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bài tập buổi 4", "bài tập buổi 4\bài tập buổi 4.csproj", "{C7691D3A-760A-40EC-A012-AA2A5B02B8A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "trò chơi đoán số (áp dụng Control flow)", "trò chơi đoán số (áp dụng Control flow)\trò chơi đoán số (áp dụng Control flow).csproj", "{16E89873-5EB8-4733-A1DC-AE810F45464E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{F490D868-ED79-4CB7-9AE5-1AAAD8F2E7E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F490D868-ED79-4CB7-9AE5-1AAAD8F2E7E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F490D868-ED79-4CB7-9AE5-1AAAD8F2E7E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7691D3A-760A-40EC-A012-AA2A5B02B8A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7691D3A-760A-40EC-A012-AA2A5B02B8A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7691D3A-760A-40EC-A012-AA2A5B02B8A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7691D3A-760A-40EC-A012-AA2A5B02B8A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E89873-5EB8-4733-A1DC-AE810F45464E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E89873-5EB8-4733-A1DC-AE810F45464E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E89873-5EB8-4733-A1DC-AE810F45464E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E89873-5EB8-4733-A1DC-AE810F45464E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
