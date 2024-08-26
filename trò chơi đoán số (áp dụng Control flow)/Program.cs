@@ -21,6 +21,7 @@ namespace FundamentalCSharp
             Console.WriteLine($"your bank account: {bank_account}");
             do
             {
+                Console.WriteLine("---------------------------------");
                 replay_value++;
                 Random rnd = new Random();
                 int computer_num = rnd.Next(1, 100);
