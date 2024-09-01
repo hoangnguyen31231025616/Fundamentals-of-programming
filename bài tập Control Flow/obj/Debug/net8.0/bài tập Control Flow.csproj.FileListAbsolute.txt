@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\Code\C#\bài tập Control Flow\bin\Debug\net8.0\bài tập Control Flow.exe
+C:\Users\Admin\Documents\Code\C#\bài tập Control Flow\bin\Debug\net8.0\bài tập Control Flow.deps.json
+C:\Users\Admin\Documents\Code\C#\bài tập Control Flow\bin\Debug\net8.0\bài tập Control Flow.runtimeconfig.json
+C:\Users\Admin\Documents\Code\C#\bài tập Control Flow\bin\Debug\net8.0\bài tập Control Flow.dll
+C:\Users\Admin\Documents\Code\C#\bài tập Control Flow\bin\Debug\net8.0\bài tập Control Flow.pdb
+C:\Users\Admin\Documents\Code\C#\bài tập Control Flow\obj\Debug\net8.0\bài tập Control Flow.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\Code\C#\bài tập Control Flow\obj\Debug\net8.0\bài tập Control Flow.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\Code\C#\bài tập Control Flow\obj\Debug\net8.0\bài tập Control Flow.AssemblyInfo.cs
+C:\Users\Admin\Documents\Code\C#\bài tập Control Flow\obj\Debug\net8.0\bài tập Control Flow.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Code\C#\bài tập Control Flow\obj\Debug\net8.0\bài tập Control Flow.sourcelink.json
+C:\Users\Admin\Documents\Code\C#\bài tập Control Flow\obj\Debug\net8.0\bài tập Control Flow.dll
+C:\Users\Admin\Documents\Code\C#\bài tập Control Flow\obj\Debug\net8.0\refint\bài tập Control Flow.dll
+C:\Users\Admin\Documents\Code\C#\bài tập Control Flow\obj\Debug\net8.0\bài tập Control Flow.pdb
+C:\Users\Admin\Documents\Code\C#\bài tập Control Flow\obj\Debug\net8.0\bài tập Control Flow.genruntimeconfig.cache
+C:\Users\Admin\Documents\Code\C#\bài tập Control Flow\obj\Debug\net8.0\ref\bài tập Control Flow.dll
