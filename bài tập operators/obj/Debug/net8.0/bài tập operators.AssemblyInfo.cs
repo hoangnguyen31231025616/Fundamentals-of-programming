@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("bài tập operators")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5315b60a62bc4f1070885b5623c4c013309deaf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e980765083e7f8b5024bba3cb525f15d7a1ffb13")]
 [assembly: System.Reflection.AssemblyProductAttribute("bài tập operators")]
 [assembly: System.Reflection.AssemblyTitleAttribute("bài tập operators")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

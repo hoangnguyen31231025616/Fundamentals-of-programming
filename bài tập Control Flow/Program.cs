@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,7 +16,12 @@ namespace FundamentalCSharp
             //baitap3();
             //baitap4();
             //baitap5();
-            baitap6();
+            //baitap6();
+            //baitap7();
+            //baitap8();
+            //baitap9();
+            //baitap10();
+            baitap11();
         }
         static void baitap1()
         {
@@ -99,9 +105,107 @@ namespace FundamentalCSharp
             }
         }
         static void baitap7()
-        {
-            
+        {   
+            Console.Write("input end number: ");
+            int end_num = Convert.ToInt16(Console.ReadLine());
+            for (int row = 1; row <= end_num; ++row)
+            {
+            for (int col = 1; col <= row; ++col)
+                {
+                Console.Write($"{col}");
+                }
+            Console.WriteLine();
+            }
+            int start_num = 1;
+            Console.Write("input end number: ");
+            for (int row = 1; row <= end_num; ++row)
+            {
+                for (int spc = end_num; spc >= row; spc--)
+                {
+                    Console.Write(" ");
+                }
+                for (int col = 1; col <= row; col++)
+                {  
+                    int written_num = col + start_num -1;
+                    Console.Write($" {written_num}");
+                    if (written_num == end_num) return;
+                }
+                start_num+=row;
+            Console.WriteLine();
+            }
         }
-
+        static void baitap8()
+        {   
+            Console.Write("input end number: ");
+            int end_num = Convert.ToInt16(Console.ReadLine());
+            int start_num=1;
+            for (int row = 1; row <= end_num; ++row)
+            {
+                for (int spc = end_num; spc >= row; spc--)
+                {
+                    Console.Write(" ");
+                }
+                for (int col = 1; col <= row; col++)
+                {  
+                    int written_num = col + start_num -1;
+                    Console.Write($" {written_num}");
+                    if (written_num == end_num) return;
+                }
+                start_num+=row;
+            Console.WriteLine();
+            }
+        }
+        static void baitap9()
+        {
+            float sum = 0;
+            Console.WriteLine("input number: ");
+            float end_num = Convert.ToInt16(Console.ReadLine());
+            for (float i = 1; i <= end_num; i++)
+            {
+                Console.Write($"1/{i}");
+                if (i<end_num) Console.Write(" + ");
+                sum += (1/i);
+            }
+        Console.WriteLine();
+        Console.WriteLine("the sum of: ", sum);
+        }
+        static void baitap10()
+        {
+            Console.WriteLine("input minumum number: ");
+            int min = Convert.ToInt16(Console.ReadLine());
+            Console.WriteLine("input maximum numer: ");
+            int max = Convert.ToInt16(Console.ReadLine());
+            Console.Write("the perfect number in the range is(are): ");
+            for (int i=1; i <= max; i++)
+            {
+                int n = 1;
+                int sum = 0;
+                while (n<i)
+                {
+                    if (i % n == 0) sum = sum+n;
+                    n++;
+                }
+                if (sum == i) Console.Write($"{sum} ");
+            }
+        }
+        static void baitap11()
+        {
+            int count = 0;
+            Console.Write("input number: ");
+            int num = Convert.ToInt16(Console.ReadLine());
+            for (int i =2; i <= num/2; i++)
+            {
+                if (num % i == 0)
+                {
+                    count++;
+                    break;
+                }
+            }
+            if (count == 0 && num != 1)
+                {                   
+                    Console.WriteLine("the given number is prime");
+                }
+            else Console.WriteLine("the given number is NOT a prime");
+        }
     }
 }
