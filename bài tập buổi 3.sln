@@ -15,7 +15,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bài tập buổi 4", "bài
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "trò chơi đoán số (áp dụng Control flow)", "trò chơi đoán số (áp dụng Control flow)\trò chơi đoán số (áp dụng Control flow).csproj", "{16E89873-5EB8-4733-A1DC-AE810F45464E}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trò chơi tài xỉu", "Trò chơi tài xỉu\Trò chơi tài xỉu.csproj", "{9B3EC82E-EACC-4A53-AE49-80135BD2B248}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bài tập Control Flow", "bài tập Control Flow\bài tập Control Flow.csproj", "{0B754D5A-BE3C-463F-A1BD-9D27F83A025D}"
+>>>>>>> 62e8feb02cdf942522b39aafcc2de1657ac27807
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,9 +54,16 @@ Global
 		{16E89873-5EB8-4733-A1DC-AE810F45464E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16E89873-5EB8-4733-A1DC-AE810F45464E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16E89873-5EB8-4733-A1DC-AE810F45464E}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{9B3EC82E-EACC-4A53-AE49-80135BD2B248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9B3EC82E-EACC-4A53-AE49-80135BD2B248}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B3EC82E-EACC-4A53-AE49-80135BD2B248}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B3EC82E-EACC-4A53-AE49-80135BD2B248}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{0B754D5A-BE3C-463F-A1BD-9D27F83A025D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B754D5A-BE3C-463F-A1BD-9D27F83A025D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B754D5A-BE3C-463F-A1BD-9D27F83A025D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B754D5A-BE3C-463F-A1BD-9D27F83A025D}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> 62e8feb02cdf942522b39aafcc2de1657ac27807
 	EndGlobalSection
 EndGlobal

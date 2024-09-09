@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\khanh\\Documents\\Code\\Fundamentals-of-programming\\bài tập String\\bài tập String.csproj": {}
+    "C:\\Users\\Admin\\Documents\\Code\\C#\\bài tập String\\bài tập String.csproj": {}
   },
   "projects": {
-    "C:\\Users\\khanh\\Documents\\Code\\Fundamentals-of-programming\\bài tập String\\bài tập String.csproj": {
+    "C:\\Users\\Admin\\Documents\\Code\\C#\\bài tập String\\bài tập String.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\khanh\\Documents\\Code\\Fundamentals-of-programming\\bài tập String\\bài tập String.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\Code\\C#\\bài tập String\\bài tập String.csproj",
         "projectName": "bài tập String",
-        "projectPath": "C:\\Users\\khanh\\Documents\\Code\\Fundamentals-of-programming\\bài tập String\\bài tập String.csproj",
-        "packagesPath": "C:\\Users\\khanh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\khanh\\Documents\\Code\\Fundamentals-of-programming\\bài tập String\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Documents\\Code\\C#\\bài tập String\\bài tập String.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\Code\\C#\\bài tập String\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\khanh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

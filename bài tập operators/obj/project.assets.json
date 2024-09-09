@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\khanh\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\khanh\\Documents\\Code\\Fundamentals-of-programming\\bài tập operators\\bài tập operators.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\Code\\C#\\bài tập operators\\bài tập operators.csproj",
       "projectName": "bài tập operators",
-      "projectPath": "C:\\Users\\khanh\\Documents\\Code\\Fundamentals-of-programming\\bài tập operators\\bài tập operators.csproj",
-      "packagesPath": "C:\\Users\\khanh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\khanh\\Documents\\Code\\Fundamentals-of-programming\\bài tập operators\\obj\\",
+      "projectPath": "C:\\Users\\Admin\\Documents\\Code\\C#\\bài tập operators\\bài tập operators.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\Code\\C#\\bài tập operators\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\khanh\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
