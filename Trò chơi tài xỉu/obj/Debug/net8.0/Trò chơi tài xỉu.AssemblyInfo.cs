@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Trò chơi tài xỉu")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f466cc1d6519238fac9400f64b6730d3051ef73b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5cc2a312529515fd88e22190d8973aae9901be84")]
 [assembly: System.Reflection.AssemblyProductAttribute("Trò chơi tài xỉu")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Trò chơi tài xỉu")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
