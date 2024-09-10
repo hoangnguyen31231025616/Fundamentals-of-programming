@@ -10,5 +10,7 @@ namespace FundamentalCSharp
     {
         public static void Main(string[] args)
         {
-            
+
         }
+    }
+}
