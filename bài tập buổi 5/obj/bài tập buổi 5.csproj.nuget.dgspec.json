@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\khanh\\Documents\\Code\\Fundamentals-of-programming\\bài tập String\\bài tập String.csproj": {}
+    "C:\\Users\\khanh\\Documents\\Code\\Fundamentals-of-programming\\bài tập buổi 5\\bài tập buổi 5.csproj": {}
   },
   "projects": {
-    "c:\\Users\\khanh\\Documents\\Code\\Fundamentals-of-programming\\bài tập String\\bài tập String.csproj": {
+    "C:\\Users\\khanh\\Documents\\Code\\Fundamentals-of-programming\\bài tập buổi 5\\bài tập buổi 5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\khanh\\Documents\\Code\\Fundamentals-of-programming\\bài tập String\\bài tập String.csproj",
-        "projectName": "bài tập String",
-        "projectPath": "c:\\Users\\khanh\\Documents\\Code\\Fundamentals-of-programming\\bài tập String\\bài tập String.csproj",
+        "projectUniqueName": "C:\\Users\\khanh\\Documents\\Code\\Fundamentals-of-programming\\bài tập buổi 5\\bài tập buổi 5.csproj",
+        "projectName": "bài tập buổi 5",
+        "projectPath": "C:\\Users\\khanh\\Documents\\Code\\Fundamentals-of-programming\\bài tập buổi 5\\bài tập buổi 5.csproj",
         "packagesPath": "C:\\Users\\khanh\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\khanh\\Documents\\Code\\Fundamentals-of-programming\\bài tập String\\obj\\",
+        "outputPath": "C:\\Users\\khanh\\Documents\\Code\\Fundamentals-of-programming\\bài tập buổi 5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\khanh\\AppData\\Roaming\\NuGet\\NuGet.Config"

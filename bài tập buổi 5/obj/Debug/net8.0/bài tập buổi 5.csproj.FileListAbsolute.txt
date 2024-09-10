@@ -1,0 +1,15 @@
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập buổi 5\obj\Debug\net8.0\bài tập buổi 5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập buổi 5\obj\Debug\net8.0\bài tập buổi 5.AssemblyInfoInputs.cache
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập buổi 5\obj\Debug\net8.0\bài tập buổi 5.AssemblyInfo.cs
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập buổi 5\obj\Debug\net8.0\bài tập buổi 5.csproj.CoreCompileInputs.cache
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập buổi 5\obj\Debug\net8.0\bài tập buổi 5.sourcelink.json
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập buổi 5\bin\Debug\net8.0\bài tập buổi 5.exe
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập buổi 5\bin\Debug\net8.0\bài tập buổi 5.deps.json
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập buổi 5\bin\Debug\net8.0\bài tập buổi 5.runtimeconfig.json
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập buổi 5\bin\Debug\net8.0\bài tập buổi 5.dll
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập buổi 5\bin\Debug\net8.0\bài tập buổi 5.pdb
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập buổi 5\obj\Debug\net8.0\bài tập buổi 5.dll
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập buổi 5\obj\Debug\net8.0\refint\bài tập buổi 5.dll
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập buổi 5\obj\Debug\net8.0\bài tập buổi 5.pdb
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập buổi 5\obj\Debug\net8.0\bài tập buổi 5.genruntimeconfig.cache
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập buổi 5\obj\Debug\net8.0\ref\bài tập buổi 5.dll
