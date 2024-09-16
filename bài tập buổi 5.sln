@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bài tập buổi 5", "bài tập buổi 5\bài tập buổi 5.csproj", "{12B42F17-E1F9-448A-9D71-D9797AA5993A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bài tập buổi 6", "bài tập buổi 6\bài tập buổi 6.csproj", "{E833C056-3DB3-4B00-A5B6-45A740A265D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{12B42F17-E1F9-448A-9D71-D9797AA5993A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12B42F17-E1F9-448A-9D71-D9797AA5993A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12B42F17-E1F9-448A-9D71-D9797AA5993A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E833C056-3DB3-4B00-A5B6-45A740A265D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E833C056-3DB3-4B00-A5B6-45A740A265D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E833C056-3DB3-4B00-A5B6-45A740A265D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E833C056-3DB3-4B00-A5B6-45A740A265D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
