@@ -20,7 +20,7 @@ namespace FundamentalCSharp
             int[] numbers = new int[count];
             Random rng = new Random();
             Console.Write("array: ");
-            for (int i = 0; i < count; i++)
+            foreach(int i in numbers)
             {
                 numbers[i] = rng.Next(100);
                 Console.Write($"{numbers[i]} ");
