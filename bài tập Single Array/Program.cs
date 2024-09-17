@@ -1,5 +1,7 @@
-﻿sing System;
+﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
+using System.Globalization;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Runtime.Versioning;
@@ -12,9 +14,50 @@ namespace FundamentalCSharp
     internal class Method
     {
         public static void Main(string[] args)
-        {
-
+        {   
+            Console.Write("Input the size of the array: ");
+            int count = Convert.ToInt32(Console.ReadLine());
+            int[] numbers = new int[count];
+            Random rng = new Random();
+            Console.Write("array: ");
+            for (int i = 0; i < count; i++)
+            {
+                numbers[i] = rng.Next(100);
+                Console.Write($"{numbers[i]} ");
+            }
+            Console.WriteLine();
+            double average = AverageArray(numbers);
+            Console.WriteLine($"average of array: {average}");
+            Console.Write("Input value you want to check in array: ");
+            int value = Convert.ToInt32(Console.ReadLine());
+            bool SpecificValue = TestIfSpecificValue(numbers,value);
+            if (SpecificValue == true)
+            {
+                Console.WriteLine("this value exists in this array ");
+            }
+            else Console.WriteLine("this value DOES NOT exist in this array ");
         }
-        
+        static double AverageArray(int[] numbers)
+        {
+            double average;
+            int sum = 0;
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                sum += numbers[i];
+            }
+            average = sum/numbers.Length;
+            return average;
+        }
+        static bool TestIfSpecificValue(int[] numbers, int value)
+        {
+            foreach(int i in numbers)
+            {
+                if (numbers[i] == value)
+                {
+                    return true;
+                }
+                else return false;
+            }
+        }
     }
 }
