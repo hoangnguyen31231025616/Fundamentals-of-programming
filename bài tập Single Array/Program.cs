@@ -50,14 +50,14 @@ namespace FundamentalCSharp
         }
         static bool TestIfSpecificValue(int[] numbers, int value)
         {
-            foreach(int i in numbers)
+            for(int i=0; i< numbers.Length; i++)
             {
                 if (numbers[i] == value)
                 {
                     return true;
                 }
-                else return false;
             }
+        return false;
         }
     }
 }
