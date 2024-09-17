@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bài tập buổi 5", "bài
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bài tập buổi 6", "bài tập buổi 6\bài tập buổi 6.csproj", "{E833C056-3DB3-4B00-A5B6-45A740A265D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bài tập Single Array", "bài tập Single Array\bài tập Single Array.csproj", "{81CD0E10-22D7-4EC0-B95F-7DFC501C247B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{E833C056-3DB3-4B00-A5B6-45A740A265D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E833C056-3DB3-4B00-A5B6-45A740A265D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E833C056-3DB3-4B00-A5B6-45A740A265D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81CD0E10-22D7-4EC0-B95F-7DFC501C247B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81CD0E10-22D7-4EC0-B95F-7DFC501C247B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81CD0E10-22D7-4EC0-B95F-7DFC501C247B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81CD0E10-22D7-4EC0-B95F-7DFC501C247B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
