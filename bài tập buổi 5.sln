@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bài tập buổi 6", "bài
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bài tập Single Array", "bài tập Single Array\bài tập Single Array.csproj", "{81CD0E10-22D7-4EC0-B95F-7DFC501C247B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "launch.json", "launch.json\launch.json.csproj", "{9136B17D-61F6-4A0A-8C11-AA5AD2BA17FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{81CD0E10-22D7-4EC0-B95F-7DFC501C247B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81CD0E10-22D7-4EC0-B95F-7DFC501C247B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81CD0E10-22D7-4EC0-B95F-7DFC501C247B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9136B17D-61F6-4A0A-8C11-AA5AD2BA17FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9136B17D-61F6-4A0A-8C11-AA5AD2BA17FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9136B17D-61F6-4A0A-8C11-AA5AD2BA17FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9136B17D-61F6-4A0A-8C11-AA5AD2BA17FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

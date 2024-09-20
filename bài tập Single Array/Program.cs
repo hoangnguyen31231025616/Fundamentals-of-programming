@@ -20,12 +20,13 @@ namespace FundamentalCSharp
             int[] numbers = new int[count];
             Random rng = new Random();
             Console.Write("array: ");
-            for (int i = 0; i < count; i++)
+            for(int i = 0; i < numbers.Length; i++)
             {
                 numbers[i] = rng.Next(100);
                 Console.Write($"{numbers[i]} ");
             }
             Console.WriteLine();
+            Console.WriteLine(numbers[1]);
             double average = AverageArray(numbers);
             Console.WriteLine($"average of array: {average}");
             Console.Write("Input value you want to check in array: ");
@@ -36,6 +37,14 @@ namespace FundamentalCSharp
                 Console.WriteLine("this value exists in this array ");
             }
             else Console.WriteLine("this value DOES NOT exist in this array ");
+            Console.Write("input value you want to check for index: ");
+            int index = Convert.ToInt32(Console.ReadLine());
+            int CheckForIndex = FindIndexOfArray(numbers, index);
+            if (CheckForIndex == -1)
+            {
+                Console.WriteLine("this contain does NOT contain such value");
+            }
+            else Console.WriteLine($"this value is at {CheckForIndex} index");
         }
         static double AverageArray(int[] numbers)
         {
@@ -50,14 +59,26 @@ namespace FundamentalCSharp
         }
         static bool TestIfSpecificValue(int[] numbers, int value)
         {
-            foreach(int i in numbers)
+            for(int i=0; i< numbers.Length; i++)
             {
                 if (numbers[i] == value)
                 {
                     return true;
                 }
-                else return false;
             }
+        return false;
+        }
+        static int FindIndexOfArray(int[] numbers, int value)
+        {
+
+            for(int i = 0 ; i < numbers.Length; i++)
+            {
+                if (numbers[i] == value)
+                {
+                    return i;
+                }
+            }
+            return -1;
         }
     }
 }
