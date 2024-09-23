@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bài tập Single Array", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "launch.json", "launch.json\launch.json.csproj", "{9136B17D-61F6-4A0A-8C11-AA5AD2BA17FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bài tập Multidimensional Arrays", "bài tập Multidimensional Arrays\bài tập Multidimensional Arrays.csproj", "{9464FE98-0AD1-429B-92D7-F6D676DD0C15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{9136B17D-61F6-4A0A-8C11-AA5AD2BA17FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9136B17D-61F6-4A0A-8C11-AA5AD2BA17FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9136B17D-61F6-4A0A-8C11-AA5AD2BA17FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9464FE98-0AD1-429B-92D7-F6D676DD0C15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9464FE98-0AD1-429B-92D7-F6D676DD0C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9464FE98-0AD1-429B-92D7-F6D676DD0C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9464FE98-0AD1-429B-92D7-F6D676DD0C15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("bài tập Single Array")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f1ae9c0ac204b9bfa1594f702865decc7c41fbd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57595bb66cec6f268b1e0f434f21d54a1516f3c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("bài tập Single Array")]
 [assembly: System.Reflection.AssemblyTitleAttribute("bài tập Single Array")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
