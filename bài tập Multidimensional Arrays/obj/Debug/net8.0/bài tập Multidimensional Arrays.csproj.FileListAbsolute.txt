@@ -1,0 +1,15 @@
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập Multidimensional Arrays\bin\Debug\net8.0\bài tập Multidimensional Arrays.exe
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập Multidimensional Arrays\bin\Debug\net8.0\bài tập Multidimensional Arrays.deps.json
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập Multidimensional Arrays\bin\Debug\net8.0\bài tập Multidimensional Arrays.runtimeconfig.json
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập Multidimensional Arrays\bin\Debug\net8.0\bài tập Multidimensional Arrays.dll
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập Multidimensional Arrays\bin\Debug\net8.0\bài tập Multidimensional Arrays.pdb
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập Multidimensional Arrays\obj\Debug\net8.0\bài tập Multidimensional Arrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập Multidimensional Arrays\obj\Debug\net8.0\bài tập Multidimensional Arrays.AssemblyInfoInputs.cache
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập Multidimensional Arrays\obj\Debug\net8.0\bài tập Multidimensional Arrays.AssemblyInfo.cs
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập Multidimensional Arrays\obj\Debug\net8.0\bài tập Multidimensional Arrays.csproj.CoreCompileInputs.cache
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập Multidimensional Arrays\obj\Debug\net8.0\bài tập Multidimensional Arrays.sourcelink.json
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập Multidimensional Arrays\obj\Debug\net8.0\bài tập Multidimensional Arrays.dll
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập Multidimensional Arrays\obj\Debug\net8.0\refint\bài tập Multidimensional Arrays.dll
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập Multidimensional Arrays\obj\Debug\net8.0\bài tập Multidimensional Arrays.pdb
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập Multidimensional Arrays\obj\Debug\net8.0\bài tập Multidimensional Arrays.genruntimeconfig.cache
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập Multidimensional Arrays\obj\Debug\net8.0\ref\bài tập Multidimensional Arrays.dll

@@ -45,6 +45,10 @@ namespace FundamentalCSharp
                 Console.WriteLine("this contain does NOT contain such value");
             }
             else Console.WriteLine($"this value is at {CheckForIndex} index");
+            Console.Write("input value to delete: ");
+            int value_to_delete = Convert.ToInt32(Console.ReadLine());
+            int[] changed_numbers = RemoveSpecificElement(ref numbers, value_to_delete);   
+            Console.Write(changed_numbers);
         }
         static double AverageArray(int[] numbers)
         {
@@ -79,6 +83,20 @@ namespace FundamentalCSharp
                 }
             }
             return -1;
+        }
+        static int[] RemoveSpecificElement(ref int[] numbers, int value)
+        {
+            for(int i = 0; i < numbers.Length; i++)
+            {
+                if (numbers[i] == value)
+                {
+                    for (int j = i; j < numbers.Length; j++)
+                    numbers[j] = numbers[j+1];
+                }
+                Array.Resize(ref numbers, numbers.Length-1);
+                i--;
+            }
+            return numbers;
         }
     }
 }
