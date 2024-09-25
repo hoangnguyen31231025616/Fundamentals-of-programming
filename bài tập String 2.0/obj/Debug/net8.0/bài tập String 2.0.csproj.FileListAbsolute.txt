@@ -1,0 +1,15 @@
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập String 2.0\bin\Debug\net8.0\bài tập String 2.0.exe
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập String 2.0\bin\Debug\net8.0\bài tập String 2.0.deps.json
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập String 2.0\bin\Debug\net8.0\bài tập String 2.0.runtimeconfig.json
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập String 2.0\bin\Debug\net8.0\bài tập String 2.0.dll
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập String 2.0\bin\Debug\net8.0\bài tập String 2.0.pdb
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập String 2.0\obj\Debug\net8.0\bài tập String 2.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập String 2.0\obj\Debug\net8.0\bài tập String 2.0.AssemblyInfoInputs.cache
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập String 2.0\obj\Debug\net8.0\bài tập String 2.0.AssemblyInfo.cs
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập String 2.0\obj\Debug\net8.0\bài tập String 2.0.csproj.CoreCompileInputs.cache
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập String 2.0\obj\Debug\net8.0\bài tập String 2.0.sourcelink.json
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập String 2.0\obj\Debug\net8.0\bài tập String 2.0.dll
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập String 2.0\obj\Debug\net8.0\refint\bài tập String 2.0.dll
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập String 2.0\obj\Debug\net8.0\bài tập String 2.0.pdb
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập String 2.0\obj\Debug\net8.0\bài tập String 2.0.genruntimeconfig.cache
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập String 2.0\obj\Debug\net8.0\ref\bài tập String 2.0.dll

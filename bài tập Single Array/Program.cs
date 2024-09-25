@@ -60,6 +60,18 @@ namespace FundamentalCSharp
             }
             Console.WriteLine();
             MaxMinOfArray(numbers);
+            int End = Convert.ToInt32(numbers.Length);
+            Console.WriteLine();
+            ReversedArray(numbers);
+            
+        }
+        static void PrintArray(int[] numbers)
+        {
+            foreach (int i in numbers)
+            {
+                Console.Write(i + " ");
+            }
+            Console.WriteLine();
         }
         static double AverageArray(int[] numbers)
         {
@@ -128,6 +140,49 @@ namespace FundamentalCSharp
         }
         Console.WriteLine($"Maximum element is : {max}");
         Console.WriteLine($"Minimum element is : {min}");
+        }
+        static void ReversedArray(int[] numbers)
+        {
+            for (int i = numbers.Length - 1; i >= 0; i--)
+            {
+                Console.Write(numbers[i] + " ");
+            }
+        }
+        static void FindDupe(int[] numbers,ref int[] temp_numbers)
+        {
+            Array.Sort(numbers);
+            int index = 0;
+            Console.Write("The duplicate values: ");
+            bool[] CheckPrint = new bool[100];
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                for (int j = i + 1; j < numbers.Length; j++)
+                {
+
+                    if (numbers[j] == numbers[i])
+                    {
+                        
+                        if (!CheckPrint[numbers[i]])
+                        {
+                            temp_numbers[index] = numbers[i];
+                            index++;
+                            CheckPrint[numbers[i]] = true;
+                        }
+                        break;
+                    }
+                }
+            }
+            Array.Resize( ref temp_numbers, index);    
+            PrintArray(temp_numbers);
+        }
+        static void RemoveDupe(int[] numbers, int[] temp_numbers)
+        {
+            FindDupe(numbers,ref temp_numbers);
+            for (int i = 0; i < temp_numbers.Length; i++)
+            {
+                RemoveSpecificElement(ref numbers,temp_numbers[i]);
+            }           
+            PrintArray(numbers);
         }
         static void BubbleSort(int[] numbers)
         {

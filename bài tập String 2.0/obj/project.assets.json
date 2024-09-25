@@ -8,40 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
-=======
     "C:\\Users\\khanh\\.nuget\\packages\\": {}
->>>>>>> aacf8b213bdb15ff62e0b83369234da36d111d64
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\khanh\\Documents\\Code\\Fundamentals-of-programming\\bài tập Single Array\\bài tập Single Array.csproj",
-      "projectName": "bài tập Single Array",
-      "projectPath": "C:\\Users\\khanh\\Documents\\Code\\Fundamentals-of-programming\\bài tập Single Array\\bài tập Single Array.csproj",
+      "projectUniqueName": "C:\\Users\\khanh\\Documents\\Code\\Fundamentals-of-programming\\bài tập String 2.0\\bài tập String 2.0.csproj",
+      "projectName": "bài tập String 2.0",
+      "projectPath": "C:\\Users\\khanh\\Documents\\Code\\Fundamentals-of-programming\\bài tập String 2.0\\bài tập String 2.0.csproj",
       "packagesPath": "C:\\Users\\khanh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\khanh\\Documents\\Code\\Fundamentals-of-programming\\bài tập Single Array\\obj\\",
+      "outputPath": "C:\\Users\\khanh\\Documents\\Code\\Fundamentals-of-programming\\bài tập String 2.0\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-<<<<<<< HEAD
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-=======
         "C:\\Users\\khanh\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> aacf8b213bdb15ff62e0b83369234da36d111d64
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -80,11 +64,7 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
-=======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
->>>>>>> aacf8b213bdb15ff62e0b83369234da36d111d64
       }
     }
   }

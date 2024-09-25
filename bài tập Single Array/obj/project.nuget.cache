@@ -1,8 +1,12 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "9rpOj/cqlGw=",
+=======
+  "dgSpecHash": "JbQJurT1hG4=",
+>>>>>>> aacf8b213bdb15ff62e0b83369234da36d111d64
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Documents\\Code\\C#\\bài tập Single Array\\bài tập Single Array.csproj",
+  "projectFilePath": "C:\\Users\\khanh\\Documents\\Code\\Fundamentals-of-programming\\bài tập Single Array\\bài tập Single Array.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
