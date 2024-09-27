@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\Code\C#\Linear Search\bin\Debug\net8.0\Linear Search.exe
+C:\Users\Admin\Documents\Code\C#\Linear Search\bin\Debug\net8.0\Linear Search.deps.json
+C:\Users\Admin\Documents\Code\C#\Linear Search\bin\Debug\net8.0\Linear Search.runtimeconfig.json
+C:\Users\Admin\Documents\Code\C#\Linear Search\bin\Debug\net8.0\Linear Search.dll
+C:\Users\Admin\Documents\Code\C#\Linear Search\bin\Debug\net8.0\Linear Search.pdb
+C:\Users\Admin\Documents\Code\C#\Linear Search\obj\Debug\net8.0\Linear Search.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\Code\C#\Linear Search\obj\Debug\net8.0\Linear Search.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\Code\C#\Linear Search\obj\Debug\net8.0\Linear Search.AssemblyInfo.cs
+C:\Users\Admin\Documents\Code\C#\Linear Search\obj\Debug\net8.0\Linear Search.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Code\C#\Linear Search\obj\Debug\net8.0\Linear Search.sourcelink.json
+C:\Users\Admin\Documents\Code\C#\Linear Search\obj\Debug\net8.0\Linear Search.dll
+C:\Users\Admin\Documents\Code\C#\Linear Search\obj\Debug\net8.0\refint\Linear Search.dll
+C:\Users\Admin\Documents\Code\C#\Linear Search\obj\Debug\net8.0\Linear Search.pdb
+C:\Users\Admin\Documents\Code\C#\Linear Search\obj\Debug\net8.0\Linear Search.genruntimeconfig.cache
+C:\Users\Admin\Documents\Code\C#\Linear Search\obj\Debug\net8.0\ref\Linear Search.dll

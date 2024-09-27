@@ -23,7 +23,8 @@ namespace FundamentalCSharp
             RandomJaggedArray(row, array);
             PrintArray(array);
             Console.WriteLine("primes in array: ");
-            CheckPrimeArray(array);
+            PrintPrimeArray(array);
+            SortAllArrays(array);
         }
         static void PrintArray(int[][] a)
         {
@@ -36,7 +37,8 @@ namespace FundamentalCSharp
         }
         static string FixedJaggedArray(int[][] array)
         {
-            array = new int[4][] {
+            array = new int[4][]
+            {
                 new int[] {1, 1, 1, 1, 1},
                 new int[] {2, 2},
                 new int[] {3, 3, 3},
@@ -81,7 +83,7 @@ namespace FundamentalCSharp
             }  
             return false; 
         } 
-        static void CheckPrimeArray(int[][] array)
+        static void PrintPrimeArray(int[][] array)
         {
             for (int i = 0; i < array.Length; i++)
             {
@@ -109,12 +111,13 @@ namespace FundamentalCSharp
                 }
             }
         }
-        static void SortAllArrays(int[][] array)
+        static int[][] SortAllArrays(int[][] array)
         {
             for (int i=0; i < array.Length; i++)
             {
                 SortEachArray(array[i]);
             }
+        return array;
         } 
     }
 }
