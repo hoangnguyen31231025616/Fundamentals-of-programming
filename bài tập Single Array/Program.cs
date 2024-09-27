@@ -53,17 +53,15 @@ namespace FundamentalCSharp
             //    Console.Write(numbers[i] + " ");
             //}
             //Console.WriteLine();
-            BubbleSort(numbers);
-            for(int i = 0; i < numbers.Length; i++)
-            {
-                Console.Write(numbers[i] + " ");
-            }
             Console.WriteLine();
-            MaxMinOfArray(numbers);
-            int End = Convert.ToInt32(numbers.Length);
+            int[] temp_numbers = new int[count];
+            numbers.CopyTo(temp_numbers, 0);
+            MaxMinOfArray(temp_numbers);
             Console.WriteLine();
-            ReversedArray(numbers);
-            RemoveDupe(numbers);
+            int [] reversed_number = ReverseArray(numbers, 0, (numbers.Length-1));
+            Console.Write("reversed array: ");
+            PrintArray(reversed_number);
+            RemoveDupe(numbers, numbers);
             
             
         }
@@ -127,6 +125,7 @@ namespace FundamentalCSharp
         }  
         static void MaxMinOfArray(int[] numbers)
         {
+            BubbleSort(numbers);
             int max = numbers[0];
             int min = numbers[0];
         for (int i = 1; i < numbers.Length; i++)
@@ -143,18 +142,22 @@ namespace FundamentalCSharp
         Console.WriteLine($"Maximum element is : {max}");
         Console.WriteLine($"Minimum element is : {min}");
         }
-        static void ReversedArray(int[] numbers)
+        static int[] ReverseArray(int[] numbers, int startIndex, int endIndex)
         {
-            for (int i = numbers.Length - 1; i >= 0; i--)
+            while (startIndex < endIndex)
             {
-                Console.Write(numbers[i] + " ");
+                int temp = numbers[startIndex];
+                numbers[startIndex] = numbers[endIndex];
+                numbers[endIndex] = temp;
+                startIndex++;
+                endIndex--;
             }
+            return numbers;
         }
         static void FindDupe(int[] numbers,ref int[] temp_numbers)
         {
-            Array.Sort(numbers);
             int index = 0;
-            Console.Write("The duplicate values: ");
+            Console.Write("\nThe duplicate values: \n");
             bool[] CheckPrint = new bool[100];
             for (int i = 0; i < numbers.Length; i++)
             {
