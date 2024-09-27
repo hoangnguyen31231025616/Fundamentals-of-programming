@@ -63,6 +63,8 @@ namespace FundamentalCSharp
             int End = Convert.ToInt32(numbers.Length);
             Console.WriteLine();
             ReversedArray(numbers);
+            RemoveDupe(numbers);
+            
             
         }
         static void PrintArray(int[] numbers)
