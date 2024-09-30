@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("bài tập String 2.0")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b71ceb998389958f2a5efada7768e737adba6561")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df3cedb92cfa43a6e5389d512fa81e4019007763")]
 [assembly: System.Reflection.AssemblyProductAttribute("bài tập String 2.0")]
 [assembly: System.Reflection.AssemblyTitleAttribute("bài tập String 2.0")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
