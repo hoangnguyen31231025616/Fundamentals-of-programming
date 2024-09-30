@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mock Test", "Mock Test\Mock
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bài tập quản lý nhân viên", "bài tập quản lý nhân viên\bài tập quản lý nhân viên.csproj", "{B8B12225-2644-47F5-8AFB-AAAF8851A65B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bài tập multi array", "bài tập multi array\bài tập multi array.csproj", "{9364BAA0-4B5C-47AB-8B33-C1ECA2A6E1F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{B8B12225-2644-47F5-8AFB-AAAF8851A65B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8B12225-2644-47F5-8AFB-AAAF8851A65B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8B12225-2644-47F5-8AFB-AAAF8851A65B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9364BAA0-4B5C-47AB-8B33-C1ECA2A6E1F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9364BAA0-4B5C-47AB-8B33-C1ECA2A6E1F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9364BAA0-4B5C-47AB-8B33-C1ECA2A6E1F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9364BAA0-4B5C-47AB-8B33-C1ECA2A6E1F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
