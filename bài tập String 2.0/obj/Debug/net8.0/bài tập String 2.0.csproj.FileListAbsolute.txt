@@ -13,3 +13,11 @@ C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập String 2.0\
 C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập String 2.0\obj\Debug\net8.0\bài tập String 2.0.pdb
 C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập String 2.0\obj\Debug\net8.0\bài tập String 2.0.genruntimeconfig.cache
 C:\Users\khanh\Documents\Code\Fundamentals-of-programming\bài tập String 2.0\obj\Debug\net8.0\ref\bài tập String 2.0.dll
+C:\Users\Admin\Documents\Code\C#\bài tập String 2.0\obj\Debug\net8.0\bài tập String 2.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\Code\C#\bài tập String 2.0\obj\Debug\net8.0\bài tập String 2.0.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\Code\C#\bài tập String 2.0\obj\Debug\net8.0\bài tập String 2.0.AssemblyInfo.cs
+C:\Users\Admin\Documents\Code\C#\bài tập String 2.0\obj\Debug\net8.0\bài tập String 2.0.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Code\C#\bài tập String 2.0\obj\Debug\net8.0\bài tập String 2.0.sourcelink.json
+C:\Users\Admin\Documents\Code\C#\bài tập String 2.0\obj\Debug\net8.0\bài tập String 2.0.dll
+C:\Users\Admin\Documents\Code\C#\bài tập String 2.0\obj\Debug\net8.0\refint\bài tập String 2.0.dll
+C:\Users\Admin\Documents\Code\C#\bài tập String 2.0\obj\Debug\net8.0\bài tập String 2.0.pdb

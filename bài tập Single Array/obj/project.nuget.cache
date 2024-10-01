@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "JbQJurT1hG4=",
+  "dgSpecHash": "9rpOj/cqlGw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\khanh\\Documents\\Code\\Fundamentals-of-programming\\bài tập Single Array\\bài tập Single Array.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Documents\\Code\\C#\\bài tập Single Array\\bài tập Single Array.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Admin\\Documents\\Code\\C#\\bài tập Single Array\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

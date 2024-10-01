@@ -14,7 +14,6 @@ namespace FundamentalCSharp
 {
     internal class Method
     {
-        public class Regex : System.Runtime.Serialization.ISerializable;
         public static void Main(string[] args)
         {
             Console.WriteLine("input string: ");

@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\Code\C#\Mock Test\bin\Debug\net8.0\Mock Test.exe
+C:\Users\Admin\Documents\Code\C#\Mock Test\bin\Debug\net8.0\Mock Test.deps.json
+C:\Users\Admin\Documents\Code\C#\Mock Test\bin\Debug\net8.0\Mock Test.runtimeconfig.json
+C:\Users\Admin\Documents\Code\C#\Mock Test\bin\Debug\net8.0\Mock Test.dll
+C:\Users\Admin\Documents\Code\C#\Mock Test\bin\Debug\net8.0\Mock Test.pdb
+C:\Users\Admin\Documents\Code\C#\Mock Test\obj\Debug\net8.0\Mock Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\Code\C#\Mock Test\obj\Debug\net8.0\Mock Test.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\Code\C#\Mock Test\obj\Debug\net8.0\Mock Test.AssemblyInfo.cs
+C:\Users\Admin\Documents\Code\C#\Mock Test\obj\Debug\net8.0\Mock Test.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Code\C#\Mock Test\obj\Debug\net8.0\Mock Test.sourcelink.json
+C:\Users\Admin\Documents\Code\C#\Mock Test\obj\Debug\net8.0\Mock Test.dll
+C:\Users\Admin\Documents\Code\C#\Mock Test\obj\Debug\net8.0\refint\Mock Test.dll
+C:\Users\Admin\Documents\Code\C#\Mock Test\obj\Debug\net8.0\Mock Test.pdb
+C:\Users\Admin\Documents\Code\C#\Mock Test\obj\Debug\net8.0\Mock Test.genruntimeconfig.cache
+C:\Users\Admin\Documents\Code\C#\Mock Test\obj\Debug\net8.0\ref\Mock Test.dll

@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\Code\C#\bài tập quản lý nhân viên\bin\Debug\net8.0\bài tập quản lý nhân viên.exe
+C:\Users\Admin\Documents\Code\C#\bài tập quản lý nhân viên\bin\Debug\net8.0\bài tập quản lý nhân viên.deps.json
+C:\Users\Admin\Documents\Code\C#\bài tập quản lý nhân viên\bin\Debug\net8.0\bài tập quản lý nhân viên.runtimeconfig.json
+C:\Users\Admin\Documents\Code\C#\bài tập quản lý nhân viên\bin\Debug\net8.0\bài tập quản lý nhân viên.dll
+C:\Users\Admin\Documents\Code\C#\bài tập quản lý nhân viên\bin\Debug\net8.0\bài tập quản lý nhân viên.pdb
+C:\Users\Admin\Documents\Code\C#\bài tập quản lý nhân viên\obj\Debug\net8.0\bài tập quản lý nhân viên.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\Code\C#\bài tập quản lý nhân viên\obj\Debug\net8.0\bài tập quản lý nhân viên.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\Code\C#\bài tập quản lý nhân viên\obj\Debug\net8.0\bài tập quản lý nhân viên.AssemblyInfo.cs
+C:\Users\Admin\Documents\Code\C#\bài tập quản lý nhân viên\obj\Debug\net8.0\bài tập quản lý nhân viên.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Code\C#\bài tập quản lý nhân viên\obj\Debug\net8.0\bài tập quản lý nhân viên.sourcelink.json
+C:\Users\Admin\Documents\Code\C#\bài tập quản lý nhân viên\obj\Debug\net8.0\bài tập quản lý nhân viên.dll
+C:\Users\Admin\Documents\Code\C#\bài tập quản lý nhân viên\obj\Debug\net8.0\refint\bài tập quản lý nhân viên.dll
+C:\Users\Admin\Documents\Code\C#\bài tập quản lý nhân viên\obj\Debug\net8.0\bài tập quản lý nhân viên.pdb
+C:\Users\Admin\Documents\Code\C#\bài tập quản lý nhân viên\obj\Debug\net8.0\bài tập quản lý nhân viên.genruntimeconfig.cache
+C:\Users\Admin\Documents\Code\C#\bài tập quản lý nhân viên\obj\Debug\net8.0\ref\bài tập quản lý nhân viên.dll
