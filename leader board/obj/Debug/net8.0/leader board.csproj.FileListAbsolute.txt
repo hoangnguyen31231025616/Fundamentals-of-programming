@@ -1,0 +1,15 @@
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\leader board\bin\Debug\net8.0\leader board.exe
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\leader board\bin\Debug\net8.0\leader board.deps.json
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\leader board\bin\Debug\net8.0\leader board.runtimeconfig.json
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\leader board\bin\Debug\net8.0\leader board.dll
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\leader board\bin\Debug\net8.0\leader board.pdb
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\leader board\obj\Debug\net8.0\leader board.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\leader board\obj\Debug\net8.0\leader board.AssemblyInfoInputs.cache
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\leader board\obj\Debug\net8.0\leader board.AssemblyInfo.cs
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\leader board\obj\Debug\net8.0\leader board.csproj.CoreCompileInputs.cache
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\leader board\obj\Debug\net8.0\leader board.sourcelink.json
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\leader board\obj\Debug\net8.0\leader board.dll
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\leader board\obj\Debug\net8.0\refint\leader board.dll
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\leader board\obj\Debug\net8.0\leader board.pdb
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\leader board\obj\Debug\net8.0\leader board.genruntimeconfig.cache
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\leader board\obj\Debug\net8.0\ref\leader board.dll

@@ -1,0 +1,15 @@
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Tic Tac toe\bin\Debug\net8.0\Tic Tac toe.exe
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Tic Tac toe\bin\Debug\net8.0\Tic Tac toe.deps.json
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Tic Tac toe\bin\Debug\net8.0\Tic Tac toe.runtimeconfig.json
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Tic Tac toe\bin\Debug\net8.0\Tic Tac toe.dll
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Tic Tac toe\bin\Debug\net8.0\Tic Tac toe.pdb
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Tic Tac toe\obj\Debug\net8.0\Tic Tac toe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Tic Tac toe\obj\Debug\net8.0\Tic Tac toe.AssemblyInfoInputs.cache
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Tic Tac toe\obj\Debug\net8.0\Tic Tac toe.AssemblyInfo.cs
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Tic Tac toe\obj\Debug\net8.0\Tic Tac toe.csproj.CoreCompileInputs.cache
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Tic Tac toe\obj\Debug\net8.0\Tic Tac toe.sourcelink.json
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Tic Tac toe\obj\Debug\net8.0\Tic Tac toe.dll
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Tic Tac toe\obj\Debug\net8.0\refint\Tic Tac toe.dll
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Tic Tac toe\obj\Debug\net8.0\Tic Tac toe.pdb
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Tic Tac toe\obj\Debug\net8.0\Tic Tac toe.genruntimeconfig.cache
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Tic Tac toe\obj\Debug\net8.0\ref\Tic Tac toe.dll

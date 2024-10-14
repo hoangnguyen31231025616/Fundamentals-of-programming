@@ -1,0 +1,6 @@
+Player Name: UEH
+Total Moves: 7
+Moves History:
+Move 1: From A to B (Total Moves: 1)
+Move 2: From A to C (Total Moves: 2)
+Move 3: From B to C (Total Moves: 3)

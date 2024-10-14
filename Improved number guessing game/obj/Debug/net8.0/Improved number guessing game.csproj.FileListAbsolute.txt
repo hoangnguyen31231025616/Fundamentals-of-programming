@@ -1,0 +1,15 @@
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Improved number guessing game\bin\Debug\net8.0\Improved number guessing game.exe
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Improved number guessing game\bin\Debug\net8.0\Improved number guessing game.deps.json
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Improved number guessing game\bin\Debug\net8.0\Improved number guessing game.runtimeconfig.json
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Improved number guessing game\bin\Debug\net8.0\Improved number guessing game.dll
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Improved number guessing game\bin\Debug\net8.0\Improved number guessing game.pdb
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Improved number guessing game\obj\Debug\net8.0\Improved number guessing game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Improved number guessing game\obj\Debug\net8.0\Improved number guessing game.AssemblyInfoInputs.cache
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Improved number guessing game\obj\Debug\net8.0\Improved number guessing game.AssemblyInfo.cs
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Improved number guessing game\obj\Debug\net8.0\Improved number guessing game.csproj.CoreCompileInputs.cache
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Improved number guessing game\obj\Debug\net8.0\Improved number guessing game.sourcelink.json
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Improved number guessing game\obj\Debug\net8.0\Improved number guessing game.dll
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Improved number guessing game\obj\Debug\net8.0\refint\Improved number guessing game.dll
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Improved number guessing game\obj\Debug\net8.0\Improved number guessing game.pdb
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Improved number guessing game\obj\Debug\net8.0\Improved number guessing game.genruntimeconfig.cache
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\Improved number guessing game\obj\Debug\net8.0\ref\Improved number guessing game.dll

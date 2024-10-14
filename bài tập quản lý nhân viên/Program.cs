@@ -110,8 +110,6 @@ namespace Session2
             {
                 
                 if(max_task[i] > 0)
-                        
-                    
                 {
                     max= max_task[i];
                 }

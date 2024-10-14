@@ -12,7 +12,12 @@ namespace FundamentalCSharp
     {
         public static void Main(string[] args)
         {
+            object[,] player = new object[10,2];
             game_egine();
+        }
+        static void player(object[][] player)
+        {
+
         }
         static void game_egine()
         {
@@ -56,6 +61,7 @@ namespace FundamentalCSharp
                     Console.Write($"you have played {replay_value} time(s)");
                     Console.ReadLine();
                     break;
+
                     }
             }
             while (true);

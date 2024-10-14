@@ -1,0 +1,15 @@
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\flappy bird\bin\Debug\net8.0\flappy bird.exe
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\flappy bird\bin\Debug\net8.0\flappy bird.deps.json
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\flappy bird\bin\Debug\net8.0\flappy bird.runtimeconfig.json
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\flappy bird\bin\Debug\net8.0\flappy bird.dll
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\flappy bird\bin\Debug\net8.0\flappy bird.pdb
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\flappy bird\obj\Debug\net8.0\flappy bird.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\flappy bird\obj\Debug\net8.0\flappy bird.AssemblyInfoInputs.cache
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\flappy bird\obj\Debug\net8.0\flappy bird.AssemblyInfo.cs
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\flappy bird\obj\Debug\net8.0\flappy bird.csproj.CoreCompileInputs.cache
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\flappy bird\obj\Debug\net8.0\flappy bird.sourcelink.json
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\flappy bird\obj\Debug\net8.0\flappy bird.dll
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\flappy bird\obj\Debug\net8.0\refint\flappy bird.dll
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\flappy bird\obj\Debug\net8.0\flappy bird.pdb
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\flappy bird\obj\Debug\net8.0\flappy bird.genruntimeconfig.cache
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\flappy bird\obj\Debug\net8.0\ref\flappy bird.dll

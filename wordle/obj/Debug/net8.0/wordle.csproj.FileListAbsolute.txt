@@ -1,0 +1,15 @@
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\wordle\bin\Debug\net8.0\wordle.exe
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\wordle\bin\Debug\net8.0\wordle.deps.json
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\wordle\bin\Debug\net8.0\wordle.runtimeconfig.json
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\wordle\bin\Debug\net8.0\wordle.dll
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\wordle\bin\Debug\net8.0\wordle.pdb
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\wordle\obj\Debug\net8.0\wordle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\wordle\obj\Debug\net8.0\wordle.AssemblyInfoInputs.cache
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\wordle\obj\Debug\net8.0\wordle.AssemblyInfo.cs
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\wordle\obj\Debug\net8.0\wordle.csproj.CoreCompileInputs.cache
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\wordle\obj\Debug\net8.0\wordle.sourcelink.json
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\wordle\obj\Debug\net8.0\wordle.dll
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\wordle\obj\Debug\net8.0\refint\wordle.dll
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\wordle\obj\Debug\net8.0\wordle.pdb
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\wordle\obj\Debug\net8.0\wordle.genruntimeconfig.cache
+C:\Users\khanh\Documents\Code\Fundamentals-of-programming\wordle\obj\Debug\net8.0\ref\wordle.dll
