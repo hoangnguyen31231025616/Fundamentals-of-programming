@@ -14,7 +14,6 @@ class NumberGuessingGame
     {
         DisplayTitle();
         SetupPlayer();
-
         do
         {
             SelectDifficulty();

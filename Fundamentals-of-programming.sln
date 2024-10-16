@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bài tập Multidimensional
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Improved number guessing game", "Improved number guessing game\Improved number guessing game.csproj", "{1B6A323D-A339-4A64-B6AB-7178E6C63658}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBasedRPG", "TextBasedRPG\TextBasedRPG.csproj", "{60B1396E-AA60-4E72-922E-A1C18AF755F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{1B6A323D-A339-4A64-B6AB-7178E6C63658}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B6A323D-A339-4A64-B6AB-7178E6C63658}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B6A323D-A339-4A64-B6AB-7178E6C63658}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60B1396E-AA60-4E72-922E-A1C18AF755F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60B1396E-AA60-4E72-922E-A1C18AF755F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60B1396E-AA60-4E72-922E-A1C18AF755F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60B1396E-AA60-4E72-922E-A1C18AF755F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

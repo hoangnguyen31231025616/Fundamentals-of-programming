@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("trò chơi đoán số (áp dụng Control flow)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e112447d7336618ece24074abf5072571421587e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a175987e0f90b1fded4c27408a1bfed57633af5")]
 [assembly: System.Reflection.AssemblyProductAttribute("trò chơi đoán số (áp dụng Control flow)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("trò chơi đoán số (áp dụng Control flow)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

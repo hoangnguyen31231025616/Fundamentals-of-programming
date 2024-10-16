@@ -1,0 +1,13 @@
+Game Session Data
+Username: UEH
+Date Started: 10/16/2024 9:06:46 PM
+Date Finished: 10/16/2024 9:07:14 PM
+Total Floors Passed: 2
+Total Damage Dealt: 10
+Total Damage Received: 4
+Total Healing Done: 0
+Final HP: 14
+Final MP: 5
+Final STR: 5
+Final Heal Amount: 5
+Score: 2
