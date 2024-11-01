@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Threading;
+using System.Collections.Generic; // Cần thiết cho danh sách trong CombatLog
 
 namespace TextBasedRoguelikeGame
 {
@@ -18,15 +19,22 @@ namespace TextBasedRoguelikeGame
         private Player player;
         private Random random = new Random();
         private int totalFloorsPassed;
-        private int totalDamageDealt;
-        private int totalDamageReceived;
-        private int totalHealingDone;
         private DateTime startTime;
+
+        // Mảng các thông điệp động viên được hiển thị ngẫu nhiên khi người chơi đánh bại Monster
+        private string[] specialMessages =
+        {
+            "You're unstoppable!",
+            "Keep going, warrior!",
+            "The monsters fear you now!",
+            "Another one bites the dust!",
+            "Victory is yours!"
+        };
 
         public Game()
         {
             player = new Player();
-            startTime = DateTime.Now; // Track when the game starts
+            startTime = DateTime.Now; // Theo dõi thời gian khi trò chơi bắt đầu
         }
 
         public void Start()
@@ -34,24 +42,24 @@ namespace TextBasedRoguelikeGame
             Console.Clear();
             Console.WriteLine("||====================================||");
             Console.WriteLine("||                                    ||");
-            Console.WriteLine("||  THE WORLD'S SIMPLEST ROUGE-LIKE!  ||");
+            Console.WriteLine("||     TEXT-BASED DUNGEON CRAWLER     ||");
             Console.WriteLine("||                                    ||");
             Console.WriteLine("||====================================||");
 
-            // Try-catch for username input
+            // Try-catch để nhập tên người dùng
             try
             {
-                Console.Write("Enter your username: ");
-                player.Username = Console.ReadLine(); // Input for username
+                Console.Write("Please enter player's name: ");
+                player.Username = Console.ReadLine(); // nhập tên
                 if (string.IsNullOrWhiteSpace(player.Username))
                 {
-                    player.Username = "Unknown";
+                    player.Username = "Unknown"; // username sẽ là "Unkonwn" nếu để trống
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine("An error occurred while entering your username: " + ex.Message);
-                return; // Exit the game if there's an error
+                Console.WriteLine("Error while i: " + ex.Message);
+                return; // Thoát khỏi trò chơi nếu có lỗi
             }
 
             Console.Clear();
@@ -59,62 +67,94 @@ namespace TextBasedRoguelikeGame
             int floor = 1;
             while (player.HP > 0)
             {
-                ResetPlayerHealth(); // Restore HP at the start of each floor
+                ResetPlayerHealth(); // Phục hồi điểm HP khi bắt đầu mỗi tầng mới
 
                 Console.WriteLine("+ ===================== +");
-                Console.WriteLine($"||    Floor {floor}           ||");
+                Console.WriteLine($"||    floor {floor}           ||");
                 Console.WriteLine("+ ===================== +");
 
-                Monster monster = new Monster(random.Next(1, 11) + floor); // Tougher monster
-                Console.WriteLine($"A wild {monster.Name} appears with {monster.HP} HP!");
+                Monster[] monsters = GenerateWave(floor); // Tạo ra một Wave Monster mới 
+                Console.WriteLine($"A wave of {monsters.Length} monster(s) approached!");
 
-                Battle(monster);
+                foreach (Monster monster in monsters)
+                {
+                    Console.WriteLine($"A wild {monster.Name} appeared with {monster.HP} HP!");
+                    Battle(monster);
+                    if (player.HP <= 0)
+                    {
+                        break;
+                    }
+                }
 
                 if (player.HP <= 0)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("You have been defeated!");
+                    Console.WriteLine("DEFEATED!");
                     Console.ResetColor();
                     Console.WriteLine("Press any key to exit...");
                     Console.ReadKey();
+
+                    // In Combatlog trước khi thoát
+                    player.Stats.Log.PrintLog();
                     break;
                 }
 
                 totalFloorsPassed++;
                 UpgradeStats();
 
-                Console.WriteLine("Do you want to continue to the next floor? (y/n)");
+                Console.WriteLine("Continue to the next floor? (y/n)");
                 string continueChoice = Console.ReadLine();
                 if (continueChoice.ToLower() != "y")
                 {
                     Console.Clear();
                     break;
                 }
-                floor++; // Increment floor for next round
+                Console.Clear();
+                floor++; // Tăng số tầng, để tiến tới tầng tiếp tiếp
             }
-            ExportGameData(); // Call to export game data
+            ExportGameData(); // để xuất dữ liệu trò chơi sang file TXT
+        }
+
+        private Monster[] GenerateWave(int floor)
+        {
+            // Tạo ra nhiều Monster hơn khi người chơi tiến lên các tầng cao hơn
+            int waveSize = random.Next(1, 4) + floor / 2; // công thức tính số Monster trong 1 Wave
+            Monster[] monsters = new Monster[waveSize];
+            for (int i = 0; i < waveSize; i++)
+            {
+                monsters[i] = new Monster(random.Next(1, 11) + floor); //mảng để lưu trữ Monster xuất hiện trên sàn
+            }
+            return monsters;
         }
 
         private void Battle(Monster monster)
         {
             while (monster.HP > 0 && player.HP > 0)
             {
-                ShowStats(monster); // Show current stats, including monster stats
-                Console.WriteLine("1: Attack\n2: Heal\nChoose an action:");
+                ShowStats(monster); // Hiển thị số liệu thống kê hiện tại, bao gồm số liệu thống kê 
+                Console.WriteLine("1: Attack\n2: Heal\n3: Show battle'log\nChoose action: ");
                 string choice = Console.ReadLine();
-
+                if (choice == "3")
+                {
+                    Console.WriteLine("============================");
+                    player.Stats.Log.PrintLog(); // Hiển thị nhật ký chiến đấu
+                    Console.WriteLine("============================");
+                    Console.ReadLine();
+                    Console.Clear();
+                    continue; // cho phép người chơi tiếp tục chọn tùy chọn chiến đấu
+                }
                 if (choice == "1")
                 {
-                    Attack(monster);
-                    if (monster.HP > 0) // Monster attacks back only if it's still alive
+                    Attack(monster); // Người chơi tấn công Monster
+                    if (monster.HP > 0) // Monster chỉ tấn công lại nếu nó vẫn còn sống
                     {
                         MonsterAttack(monster);
                     }
                 }
                 else if (choice == "2")
                 {
-                    Heal();
-                    if (monster.HP > 0) // Monster attacks back only if it's still alive
+                    Heal(); // Người chơi hồi máu
+                    if (monster.HP > 0) // Monster chỉ tấn công lại nếu nó vẫn còn sống
                     {
                         MonsterAttack(monster);
                     }
@@ -122,191 +162,276 @@ namespace TextBasedRoguelikeGame
                 else
                 {
                     Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.WriteLine("Invalid choice! Please select 1 or 2.");
+                    Console.WriteLine("Invalid choice! Please select 1, 2 or 3.");
                     Console.ResetColor();
-                    Thread.Sleep(1000); // Pause for a moment before continuing
+                    Thread.Sleep(1000); // Tạm dừng một lát trước khi tiếp tục
                 }
             }
 
             if (monster.HP <= 0)
             {
                 Console.WriteLine($"{monster.Name} defeated!");
-                totalDamageDealt += player.STR; // Track damage dealt
-                player.Score++; // Increment score for defeating a monster
+                player.Stats.TotalDamageDealt += player.STR; // Theo dõi sát thương gây ra
+                player.Score++; // Điểm tăng thêm khi đánh bại 1 Monster
+
+                // Ghi lại thông tin Monster bị đánh bại 
+                player.Stats.Log.AddAction($"Defeated {monster.Name}.");
+
+                //Hiển thị một thông báo đặc biệt ngẫu nhiên từ mảng sau khi đánh bại Monster
+                int randomIndex = random.Next(specialMessages.Length);
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine(specialMessages[randomIndex]); // Hiển thị một thông báo đặc biệt ngẫu nhiên
+
+                Console.ResetColor();
+                Console.ReadLine();
+                Console.Clear();
             }
         }
 
         private void Attack(Monster monster)
         {
-            FlashScreen(ConsoleColor.Red); // Trigger attack animation with red flash
+            FlashScreen(ConsoleColor.Red); // Kích hoạt hoạt ảnh tấn công bằng cách nhấp nháy màn hình màu đỏ
 
             monster.HP -= player.STR;
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine($"You dealt {player.STR} damage to {monster.Name}.");
             Console.ResetColor();
+
+            // Ghi lại cuộc tấn công
+            player.Stats.Log.AddAction($"Player attacked {monster.Name} for {player.STR} damage.");
         }
 
-        /// <summary>
-        /// Simulates an animation by flashing the screen with the specified color briefly.
-        /// </summary>
-        /// <param name="flashColor">The color to flash the screen with.</param>
         private void FlashScreen(ConsoleColor flashColor)
         {
-            // Save the current console colors
+            // Tạo hiệu ứng nhấp nháy trên màn hình để chỉ thị trực quan các hành động như tấn công hoặc hồi điểm HP
             ConsoleColor originalBackground = Console.BackgroundColor;
             ConsoleColor originalForeground = Console.ForegroundColor;
 
-            // Flash the screen with the specified color
             Console.BackgroundColor = flashColor;
             Console.Clear();
-            Thread.Sleep(200); // Flash duration in milliseconds
+            Thread.Sleep(200);
 
-            // Restore original colors
             Console.BackgroundColor = originalBackground;
             Console.ForegroundColor = originalForeground;
             Console.Clear();
-            Thread.Sleep(200); // Pause after flash
+            Thread.Sleep(200); // Tạm dừng sau khi nhấp nháy
         }
 
         private void Heal()
         {
             if (player.MP > 0)
             {
-                FlashScreen(ConsoleColor.Green); // Trigger heal animation with green flash
+                FlashScreen(ConsoleColor.Green); // Kích hoạt hoạt ảnh hồi điểm HP bằng cách nhấp nháy màn hình màu xanh
 
-                player.HP += player.HealAmount; // Heal based on HealAmount
+                player.HP += player.HealAmount; // Hồi điểm HP dựa vào HealAmount
                 player.MP--;
-                totalHealingDone += player.HealAmount; // Track healing done
+                player.Stats.TotalHealingDone += player.HealAmount; // Đã hoàn thành việc hồi điểm HP
                 Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine($"You healed for {player.HealAmount} HP. Current HP: {player.HP}, MP: {player.MP}");
                 Console.ResetColor();
+
+                // Ghi lại hành động hồi điểm HP vào Combatlog
+                player.Stats.Log.AddAction($"Player healed for {player.HealAmount} HP.");
             }
             else
             {
-                Console.ForegroundColor = ConsoleColor.DarkRed;
-                Console.WriteLine("Not enough MP to heal!"); // Warning the player that MP is not enough to proceed the action
+                Console.ForegroundColor = ConsoleColor.DarkRed;// Kích hoạt hoạt ảnh KHÔNG thể hồi điểm HP bằng cách nhấp nháy màn hình màu đỏ đậm
+                Console.WriteLine("Not enough MP to heal!"); //thông báo
                 Console.ResetColor();
             }
         }
 
         private void MonsterAttack(Monster monster)
         {
-            int damage = random.Next(1, 4);
-            player.HP -= damage;
-            totalDamageReceived += damage;
+            int damage = monster.Type.Strength; //Sử dụng điểm Strength của Monster làm sát thương
+            player.HP -= damage; // Trừ sát thương vào điểm HP của người chơi
+
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine($"{monster.Name} attacks you for {damage} damage. Your current HP: {player.HP}");
             Console.ResetColor();
+
+            // Ghi lại cuộc tấn công của Monster
+            player.Stats.Log.AddAction($"{monster.Name} attacked player for {damage} damage.");
         }
 
-        private void ShowStats(Monster monster)
+
+        private void ShowStats(Monster monster) //hiển thị Stat hiện tại của người chơi
         {
             Console.WriteLine($"Player Stats - HP: {player.HP}/{player.MaxHP}, MP: {player.MP}, STR: {player.STR}, Heal Amount: {player.HealAmount}");
             Console.WriteLine($"Monster Stats - {monster.Name} HP: {monster.HP}");
+            Console.WriteLine($"Monster Rank: {monster.Type.TypeName}, Strength: {monster.Type.Strength}");
         }
 
         private void UpgradeStats()
         {
-            Console.WriteLine("Choose a stat to upgrade: 1: HP, 2: MP, 3: STR, 4: Heal Amount");
+            Console.WriteLine("Choose a stat to upgrade:\n 1: HP\n 2: MP\n 3: STR\n 4: Heal Amount\n Other key: No upgrade");
             string choice = Console.ReadLine();
             switch (choice)
             {
                 case "1":
-                    player.MaxHP += 2; // Increase MaxHP instead of HP
-                    player.HP = player.MaxHP; // Optionally, restore HP to MaxHP upon upgrade
+                    player.MaxHP += 2;
+                    player.HP = player.MaxHP;
                     Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine("Max HP upgraded and restored to full!");
+                    Console.WriteLine("Max HP upgraded and restored to full!"); //thông báo điểm HP của người chơi được nâng cấp (+2)
                     break;
                 case "2":
                     player.MP += 1;
                     Console.ForegroundColor = ConsoleColor.Cyan;
-                    Console.WriteLine("MP upgraded!");
+                    Console.WriteLine("MP upgraded!"); //thông báo điểm MP của người chơi được nâng cấp (+1)
                     break;
                 case "3":
                     player.STR += 1;
                     Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.WriteLine("STR upgraded!");
+                    Console.WriteLine("STR upgraded!"); //thông báo điểm STR của người chơi được nâng cấp (+1)
                     break;
                 case "4":
-                    player.HealAmount += 2; // Increase healing amount
+                    player.HealAmount += 2;
                     Console.ForegroundColor = ConsoleColor.Magenta;
-                    Console.WriteLine("Heal Amount upgraded!");
+                    Console.WriteLine("Heal Amount upgraded!"); //thông báo lượng hồi điểm HP (heal amount) của người chơi được nâng cấp (+1)
                     break;
                 default:
-                    Console.WriteLine("Invalid choice, no upgrades made.");
+                    Console.WriteLine("no upgrade was made."); //nếu chọn sai thì sẽ không có gì xảy ra và không nâng cấp
                     break;
             }
             Console.ResetColor();
             Console.WriteLine("Press any key to continue...");
-            Console.ReadKey(); // Wait for player to continue
+            Console.ReadKey(); // Chờ Player muốn tiếp tục hay không
         }
 
         private void ResetPlayerHealth()
         {
-            player.HP = player.MaxHP; // Restore HP to MaxHP
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine($"Your HP has been restored to {player.HP} for the new floor.");
+            player.HP = player.MaxHP; //reset điểm HP hiện tại thành điểm HP tối đa (sau khi được nâng cấp chỉ số)
+            Console.ForegroundColor = ConsoleColor.Cyan; // thông báo hồi phục điểm HP sau khi bước qua tầng mới bằng cách hiện chữ màu xanh nhạt
+            Console.WriteLine($"Your HP has been restored to {player.HP} for the new floor."); //
             Console.ResetColor();
-            Console.ReadLine();
-            Console.Clear();
         }
 
         private void ExportGameData()
         {
-            string filePath = "game_data.txt";
             try
             {
-                using (StreamWriter writer = new StreamWriter(filePath))
+                // Tính tổng thời gian chơi
+                TimeSpan playtime = DateTime.Now - startTime;
+
+                // Ghi dữ liệu trò chơi vào một tệp văn bản TXT
+                using (StreamWriter writer = new StreamWriter("gamedata.txt"))
                 {
-                    writer.WriteLine("Game Session Data");
                     writer.WriteLine($"Username: {player.Username}");
-                    writer.WriteLine($"Date Started: {startTime}");
-                    writer.WriteLine($"Date Finished: {DateTime.Now}");
-                    writer.WriteLine($"Total Floors Passed: {totalFloorsPassed}");
-                    writer.WriteLine($"Total Damage Dealt: {totalDamageDealt}");
-                    writer.WriteLine($"Total Damage Received: {totalDamageReceived}");
-                    writer.WriteLine($"Total Healing Done: {totalHealingDone}");
-                    writer.WriteLine($"Final HP: {player.HP}");
-                    writer.WriteLine($"Final MP: {player.MP}");
-                    writer.WriteLine($"Final STR: {player.STR}");
-                    writer.WriteLine($"Final Heal Amount: {player.HealAmount}");
-                    writer.WriteLine($"Score: {player.Score}"); // Output the player's score
+                    writer.WriteLine($"Score: {player.Score}");
+                    writer.WriteLine($"Total floors passed: {totalFloorsPassed}");
+                    writer.WriteLine($"Playtime: {playtime}");
+
+                    //Viết thêm số liệu thống kê của người chơi
+                    writer.WriteLine($"Total Damage Dealt: {player.Stats.TotalDamageDealt}");
+                    writer.WriteLine($"Total Damage Received: {player.Stats.TotalDamageReceived}");
+                    writer.WriteLine($"Total Healing Done: {player.Stats.TotalHealingDone}");
                 }
+
+                // Thông báo cho người chơi về việc xuất dữ liệu trò chơi
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine($"Game data exported to {filePath}");
+                Console.WriteLine("Game data has been exported to 'gamedata.txt'.");
                 Console.ResetColor();
             }
             catch (Exception ex)
             {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("An error occurred while exporting game data: " + ex.Message);
-                Console.ResetColor();
+                Console.WriteLine("An error occurred while exporting your savedata " + ex.Message);
+                return; // Thoát khỏi trò chơi nếu có lỗi
             }
         }
     }
 
     class Player
     {
-        public int HP { get; set; } = 10;
-        public int MaxHP { get; set; } = 10; // New property to track maximum HP
-        public int MP { get; set; } = 5;
-        public int STR { get; set; } = 5;
-        public int HealAmount { get; set; } = 5; // Initial heal amount
-        public string Username { get; set; } = "Unknown"; // Player's username
-        public int Score { get; set; } = 0; // Score for defeated monsters
+        public string Username { get; set; }
+        public int HP { get; set; }
+        public int MaxHP { get; set; }
+        public int MP { get; set; }
+        public int STR { get; set; }
+        public int HealAmount { get; set; }
+        public int Score { get; set; }
+        public PlayerStats Stats { get; set; }
 
-        public Player() { }
+        public Player()
+        {
+            // chỉ số cơ bản của Player
+            MaxHP = 20;
+            HP = MaxHP;
+            MP = 5;
+            STR = 5;
+            HealAmount = 10;
+            Score = 0;
+            Stats = new PlayerStats(); // Khởi tạo số liệu thống kê của người chơi
+        }
     }
 
     class Monster
     {
         public string Name { get; set; }
         public int HP { get; set; }
+        public MonsterType Type { get; set; }
 
-        public Monster(int strength)
+        private static string[] names = { "Goblin", "Orc", "Troll", "Slime", "Skeleton", "Zombie" }; //mảng tên các Monster có thể có
+
+        public Monster(int health)
         {
-            Name = "Monster";
-            HP = strength * 2;
+            Name = names[new Random().Next(names.Length)]; // Chọn tên Monster ngẫu nhiên
+            HP = health; // Đặt điểm HP của Monster dựa trên mức floor
+            Type = new MonsterType();
+        }
+    }
+
+    //  lớp MonsterType xác định loại Monster và cấp độ sức mạnh của nó
+    class MonsterType
+    {
+        public string TypeName { get; set; }
+        public int Strength { get; set; }
+
+        private static string[] types = { "Common", "Uncommon", "Rare", "Epic", "Legendary" }; //mảng phân chia Type của Monster
+
+        public MonsterType()
+        {
+            Random random = new Random();
+            TypeName = types[random.Next(types.Length)];
+            Strength = random.Next(1, 8); // Ngẫu nhiên điểm Strength mà Monster có thể có
+        }
+    }
+
+    // Lớp PlayerStats chứa nhiều số liệu thống kê của người chơi và một lớp CombatLog lồng nhau
+    class PlayerStats
+    {
+        public int TotalDamageDealt { get; set; }
+        public int TotalDamageReceived { get; set; }
+        public int TotalHealingDone { get; set; }
+        public CombatLog Log { get; set; }
+
+        public PlayerStats()
+        {
+            Log = new CombatLog(); // Khởi tạo combat log
+        }
+
+        // Lớp lồng nhau (nested class) để theo dõi các hành động chiến đấu
+        public class CombatLog
+        {
+            private List<string> actions; // Danh sách (list) để lưu trữ các hành động chiến đấu
+
+            public CombatLog()
+            {
+                actions = new List<string>(); // Khởi tạo danh sách
+            }
+
+            public void AddAction(string action)
+            {
+                actions.Add(action); // Thêm một hành động vào Combatlog
+            }
+
+            public void PrintLog()
+            {
+                Console.WriteLine("Combat Log:");
+                foreach (var action in actions) // In tất cả các hành động được lưu trữ trong Combatlog
+                {
+                    Console.WriteLine(action);
+                }
+            }
         }
     }
 }

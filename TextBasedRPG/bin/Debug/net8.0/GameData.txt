@@ -1,0 +1,7 @@
+Username: UEH
+Score: 19
+Total floors passed: 5
+Playtime: 00:14:22.1452447
+Total Damage Dealt: 111
+Total Damage Received: 0
+Total Healing Done: 0
